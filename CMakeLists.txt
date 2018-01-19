@@ -32,14 +32,14 @@ if(WIN32)
 else()
     # Postfix of so's:
     set(PROJECT_DLLVERSION)
-    SET(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_INSTALL_PREFIX}/lib/cmake/ /usr/lib/cmake /home/mjmarin/libs/ORB_SLAM2/lib/)
+    SET(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_INSTALL_PREFIX}/lib/cmake/ /usr/lib/cmake )
 
 endif()
 
 
 
 #
-OPTION(USE_OWN_EIGEN3	"Set to OFF to use a standard eigen3 version" ON)
+OPTION(USE_OWN_EIGEN3	"Set to OFF to use a standard eigen3 version" OFF)
 OPTION(BUILD_UTILS	"Set to OFF to not build utils" ON)
 OPTION(BUILD_SHARED_LIBS 	"Set to OFF to build static libraries" ON)
 OPTION(USE_CONTRIB "Set on/off" OFF)
