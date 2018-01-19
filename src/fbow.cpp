@@ -1,7 +1,8 @@
 #include "fbow.h"
 #include <fstream>
 #include <cstring>
-
+#include <stdio.h>
+#include <stdlib.h>
 namespace fbow{
 
 
